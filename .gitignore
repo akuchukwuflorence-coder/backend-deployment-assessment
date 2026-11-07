@@ -1,0 +1,28 @@
+
+# Terraform local files
+**/.terraform/*
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/*.tfplan
+**/tfplan
+**/plan.json
+**/crash.log
+
+# Terraform variables containing local settings
+**/terraform.tfvars
+**/*.auto.tfvars
+
+# Environment files and secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
+
+# Docker image archives
+**/*.tar
+
+# Local editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
